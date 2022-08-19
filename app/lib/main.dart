@@ -38,23 +38,23 @@ class My_app extends StatelessWidget {
                         colors: [Colors.pink, Colors.yellowAccent])),
                     border: Border.all(width: 4.0, color: Colors.deepPurple),
                   ),
-                  child: Text("kitty"),
+                  child: Text("kitty",style: TextStyle(color: Colors.amberAccent,fontSize: 25)),
                 ),
-                SizedBox(width: 100),
+                SizedBox(width: 75),
                 Container(
                   decoration: BoxDecoration(
                     color: Colors.amber,
                     border: Border.all(width: 4.0, color: Colors.blueGrey),
                   ),
-                  child: Text("female"),
+                  child: Text("female",style: TextStyle(color: Colors.black38,fontSize: 25)),
                 ),
-                SizedBox(width: 100),
+                SizedBox(width: 75),
                 Container(
                   decoration: BoxDecoration(
                    color: Colors.yellowAccent,
                     border: Border.all(width: 4.0, color: Colors.blueAccent),
                   ),
-                  child: Text("6 months"),
+                  child: Text("6 months",style: TextStyle(color: Colors.deepOrange,fontSize: 20)),
                 ),
               ],
             ),
@@ -77,24 +77,24 @@ class My_app extends StatelessWidget {
                         color: Colors.pink,
                     border: Border.all(width: 4.0, color: Colors.deepPurple),
                   ),
-                  child: Text("kitty"),
+                  child: Text("leo" ,style: TextStyle(color: Colors.deepOrange,fontSize: 25)),
                 ),
-                SizedBox(width: 100),
+                SizedBox(width: 75),
                 Container(
                   decoration: BoxDecoration(
                     gradient: (LinearGradient(
                         colors: [Colors.grey, Colors.yellowAccent])),
                     border: Border.all(width: 4.0, color: Colors.blueGrey),
                   ),
-                  child: Text("female")
+                  child: Text("Male", style: TextStyle(color: Colors.green,fontSize: 25))
                 ),
-                SizedBox(width: 100),
+                SizedBox(width: 75),
                 Container(
                   decoration: BoxDecoration(
                     color: Colors.blueAccent,
-                    border: Border.all(width: 4.0, color: Colors.blueAccent),
+                    border: Border.all(width: 4.0, color: Colors.black),
                   ),
-                  child: Text("6 months",style:TextStyle(color:Colors.green)),
+                  child: Text("2 years",style: TextStyle(color: Colors.purple,fontSize: 25)),
                 ),
               ],
             ),
@@ -104,23 +104,3 @@ class My_app extends StatelessWidget {
     ));
   }
 }
-/*
-
-  Column(
-            children:[ Container(
-                child: Image(
-                  image: NetworkImage(
-                      "https://ih1.redbubble.net/image.749737322.4435/st,small,845x845-pad,1000x1000,f8f8f8.u4.jpg"),
-                  width: 400.0,
-                  height: 200.0,
-                ),
-              ),
-              Container(
-              ),
-              Container(),
-              Container(),
-            ]
-
-          )
-
-*/
